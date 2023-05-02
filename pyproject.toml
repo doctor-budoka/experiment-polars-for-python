@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "experiment-polars-for-python"
+version = "0.1.0"
+description = ""
+authors = ["James Boland <jamespatrickboland@gmail.com>"]
+readme = "README.md"
+packages = [{include = "experiment_polars_for_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+polars = "^0.17.11"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
