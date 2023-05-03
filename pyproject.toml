@@ -10,6 +10,7 @@ packages = [{include = "experiment_polars_for_python"}]
 python = "^3.11"
 polars = "^0.17.11"
 jupyter = "^1.0.0"
+plotly = "^5.14.1"
 
 
 [build-system]
